@@ -1,5 +1,3 @@
-#!/usr/bin/env cwl-runner
-
 cwlVersion: v1.0
 class: CommandLineTool
 baseCommand: [python, /Users/emily/cwl_demo/python_scripts/resample.py]
@@ -15,11 +13,12 @@ inputs:
       position: 2
   output_raster:  # the path to write out the resampled raster
     type: string
+    default: resampled_raster.tif
     inputBinding:
       position: 3
 
 outputs:
-  output_raster:
+  resampled_raster:
     type: File
     outputBinding:
       glob: $(inputs.output_raster)  # refer back to the input path provided

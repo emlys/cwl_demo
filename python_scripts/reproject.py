@@ -3,7 +3,7 @@ import pygeoprocessing
 from osgeo import osr
 
 input_path = sys.argv[1]
-epsg_code = sys.argv[2]
+epsg_code = int(sys.argv[2])
 output_path = sys.argv[3]
 
 # Reproject the vector #######################################################

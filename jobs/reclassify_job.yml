@@ -1,0 +1,4 @@
+input_raster:
+  class: File
+  path: ../input/raster_a.tif
+output_raster: reclassified_raster_a.tif

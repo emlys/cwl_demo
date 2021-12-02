@@ -1,0 +1,5 @@
+input_raster:
+  class: File
+  path: ../input/raster_a.tif
+epsg_code: 3857
+output_raster: reclassified_raster_a.tif

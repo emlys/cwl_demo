@@ -5,7 +5,7 @@ from osgeo import gdal
 input_path = sys.argv[1]
 output_path = sys.argv[2]
 
-# Reclassify raster A using data from CSV ####################################
+# Reclassify raster A values ####################################
 value_map = {
     1: 3,
     2: 2,

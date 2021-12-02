@@ -1,9 +1,0 @@
-input_raster:
-  class: File
-  path: input/raster_a.tif
-raster_to_resample_to:
-  class: File
-  path: input/raster_b.tif
-reclassification_table:
-  class: File
-  path: input/reclass.csv

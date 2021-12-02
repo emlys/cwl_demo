@@ -1,0 +1,7 @@
+lulc:
+  class: File
+  path: input/lulc_example.tif
+dem:
+  class: File
+  path: input/dem_example.tif
+output_projection_epsg_code: 3857

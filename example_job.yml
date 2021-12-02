@@ -1,7 +1,0 @@
-input_raster:
-  class: File
-  path: input/raster_a.tif
-target_raster:
-  class: File
-  path: input/raster_b.tif
-output_raster: resampled_raster_a.tif
